@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="com.sinch.ipx.utilities.TestListener">
+</listener>
+</listeners> 
+  <test thread-count="5" name="Test_all">
+  
+    <classes>
+      <class name="com.sinch.ipx.testcases.LoginTest"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
